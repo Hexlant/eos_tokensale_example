@@ -18,6 +18,7 @@ $ ./cleos.sh push action [@sale Contract] startsale '[ [@token Contract], [sale 
 
   Buy Token
   Transfer EOS token to sale contract
+  
 $ ./cleos.sh push action eosio.token transfer '["clubmateshot", "hellotestman", "1.0000 EOS", ""]' -p clubmateshot
 
 
